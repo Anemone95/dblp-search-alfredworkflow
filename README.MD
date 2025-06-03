@@ -8,14 +8,6 @@ Hit `↩` to copy bibtex in clipboard
 Keep filtering your results by adding new terms.
 
 
-## License, thanks ##
-
-This is released under the [MIT Licence][mit].
-
-[mit]: http://opensource.org/licenses/MIT
-[alfred-workflow]: http://www.deanishe.net/alfred-workflow/
-
-
 ## Build
 
 ```bash
