@@ -9,8 +9,9 @@ script_path = os.path.abspath(__file__)
 script_dir = os.path.dirname(script_path) 
 sys.path.insert(0,os.path.join(script_dir, 'lib'))
 
-paper_search = "https://dblp.uni-trier.de/search/publ/api"
-bibtex_base = "https://dblp.uni-trier.de/rec/"
+site="https://dblp.org/"
+paper_search = f"{site}search/publ/api"
+bibtex_base = f"{site}rec/"
 
 def print_and_exit(message, exit_code=0):
     print(message)
